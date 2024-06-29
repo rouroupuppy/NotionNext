@@ -33,7 +33,7 @@ const BlogItem = ({ post }) => {
         <div className='mb-4 text-sm text-gray-700 dark:text-gray-300'>
           by{' '}
           <a href='#' className='text-gray-700 dark:text-gray-300'>
-            {siteConfig('DESCRIPTION')}
+            {siteConfig('AUTHOR')}
           </a>{' '}
           on {post.date?.start_date || post.createdTime}
           <TwikooCommentCount post={post} className='pl-1' />
